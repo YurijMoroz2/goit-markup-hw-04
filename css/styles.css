@@ -77,6 +77,8 @@ ul {
 .head {
   border-bottom: 1px solid var(--accent-cornflower-color);
   background-color: var(--whait-color);
+  box-shadow: 0px 1px 6px 0px rgb(46 47 66 / 8%),
+    0px 1px 1px 0px rgb(46 47 66 / 16%), 0px 2px 1px 0px rgb(46 47 66 / 8%);
 }
 
 .navig {
@@ -133,9 +135,10 @@ ul {
 }
 .nav-page-pagination.lk:after {
   content: '';
+
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: -1;
 
   opacity: 0;
   width: 100%;
@@ -190,6 +193,7 @@ ul {
   background-position: center;
   padding-bottom: 188px;
   padding-top: 188px;
+  background-size: cover;
 }
 .hero-title {
   color: var(--whait-color);
@@ -219,8 +223,8 @@ ul {
   margin-left: auto;
   margin-right: auto;
   border-radius: 4px;
-  transition-property: color;
-  transition-delay: 250ms;
+  transition-property: background-color;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -358,7 +362,7 @@ ul {
   background-color: var(--primarybrand-iris-color);
   border-radius: 50%;
   color: var(--light-cloud-color);
-  transition-property: fill;
+  transition-property: background-color;
   transition-delay: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
