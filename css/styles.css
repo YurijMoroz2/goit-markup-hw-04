@@ -128,10 +128,10 @@ ul {
 }
 .nav-page-pagination:hover,
 .nav-page-pagination:focus,
-.nav-page-pagination.lk {
+.nav-page-pagination.lok {
   color: var(--pressed-state-ocean-color);
 }
-.nav-page-pagination.lk:after {
+.nav-page-pagination.lok:after {
   content: '';
 
   position: absolute;
@@ -147,7 +147,7 @@ ul {
 }
 .nav-page-pagination:hover:after,
 .nav-page-pagination:focus:after,
-.nav-page-pagination.lk:after {
+.nav-page-pagination.lok:after {
   opacity: 1;
 }
 .gmail {
@@ -394,7 +394,7 @@ ul {
   border: 1px solid var(--subtletext-lightlate-color);
   color: var(--subtletext-lightlate-color);
   padding: 16px 32px;
-  transition-property: fill;
+  transition-property: border-color, color;
   transition-delay: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
