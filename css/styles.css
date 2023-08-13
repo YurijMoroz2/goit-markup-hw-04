@@ -598,8 +598,8 @@ ul {
 .imag-item {
   flex-basis: calc((100% - 24px * 2) / 3);
 }
-.imag-item:hover .overley,
-.imag-item:focus .overley {
+.card:hover .overley,
+.card:focus .overley {
   transform: translateY(0%);
 }
 .card {
